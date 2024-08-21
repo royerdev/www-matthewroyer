@@ -7,16 +7,20 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.0",
-    "nuxt": "^3.12.2",
-    "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "@nuxt/eslint": "^0.5.1",
+    "@nuxt/image": "^1.7.0",
+    "@nuxt/ui": "^2.18.4",
+    "@vueuse/core": "^11.0.1",
+    "@vueuse/nuxt": "^11.0.1",
+    "luxon": "^3.5.0",
+    "nuxt": "^3.12.4",
+    "tailwindcss": "^3.4.10",
+    "vue": "latest"
   },
-  "devDependencies": {
-    "scss": "^0.2.4"
-  }
   "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
 }
