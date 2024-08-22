@@ -1,14 +1,20 @@
 <template>
   <BaseSection
     centered
-    class="!p-6 text-xs text-gray-400 bg-gray-900"
+    class="!p-6 text-xs text-gray-400 bg-blue-950"
   >
     <p class="tracking-wide">
       &copy; {{ new Date().getFullYear() }}
-      &bullet; <nuxt-link to="/privacy">Privacy</nuxt-link>
-      &bullet; Designed by <nuxt-link to="https://matthewroyer.com">
+      &bullet; <NuxtLink to="/privacy">Privacy</NuxtLink>
+      &bullet; Designed by <NuxtLink to="https://matthewroyer.com">
         Matt Royer
-      </nuxt-link>
+      </NuxtLink>
     </p>
   </BaseSection>
 </template>
+
+<style scoped>
+a {
+  @apply text-white opacity-70;
+}
+</style>
