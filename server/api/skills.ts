@@ -7,6 +7,10 @@ const skills = [{
     level: 50,
     badge: false
 }, {
+    name: "API Gateway",
+    level: 50,
+    badge: false
+}, {
     name: "AWS",
     level: 50,
     badge: false
@@ -79,6 +83,10 @@ const skills = [{
     level: 50,
     badge: false
 }, {
+    name: "Route 53",
+    level: 40,
+    badge: false
+}, {
     name: "Ruby on Rails",
     level: 50,
     badge: true
@@ -87,8 +95,20 @@ const skills = [{
     level: 60,
     badge: true
 }, {
+    name: "S3",
+    level: 50,
+    badge: false
+}, {
     name: "SASS",
     level: 90,
+    badge: false
+}, {
+    name: "Serverless",
+    level: 40,
+    badge: false
+}, {
+    name: "SQS",
+    level: 40,
     badge: false
 }, {
     name: "Tailwindcss",
