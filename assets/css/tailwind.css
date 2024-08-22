@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply font-sans text-gray-700 dark:text-gray-300;
+  body {
+    @apply font-sans text-gray-600 dark:text-gray-300 font-light;
   }
 
   a {

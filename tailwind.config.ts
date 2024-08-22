@@ -34,8 +34,5 @@ export default <Partial<Config>>{
       'widest': '0.75em',
     },
   },
-  darkMode: ['variant', [
-    '@media (prefers-color-scheme: dark) { &:not(.light *) }',
-    '&:is(.dark *)',
-  ]],
+  darkMode: 'class',
 }

@@ -35,6 +35,10 @@ importers:
       vue:
         specifier: latest
         version: 3.4.38(typescript@5.5.4)
+    devDependencies:
+      '@iconify-json/mdi':
+        specifier: ^1.1.68
+        version: 1.1.68
 
 packages:
 
@@ -719,6 +723,9 @@ packages:
 
   '@iconify-json/heroicons@1.1.24':
     resolution: {integrity: sha512-Axd6nxsEeQMpuK8ugkAkJ1kS6cbmgXX1s1+Z6NbANvtgtNTBIx9bLQcEL6loKjxpfktDXERElrR5G6xzWOqysg==}
+
+  '@iconify-json/mdi@1.1.68':
+    resolution: {integrity: sha512-7//TKCiXLU6kNWeOJRTBbisofVO7rF1sD1TZTL4/V9nqlmVNczQ5IOY0GgKOTsitkcTnX9GXgrgbjw3OI5B69w==}
 
   '@iconify/collections@1.0.451':
     resolution: {integrity: sha512-rxJuvER88l6nkZf3AW1uhnz5KGYwOgUoJMQ7wOn1lEf2PGkvgT+vPNfqT5ig0hp7vAlOo7reasI8TgElXZP0AQ==}
@@ -5073,6 +5080,10 @@ snapshots:
   '@humanwhocodes/object-schema@2.0.3': {}
 
   '@iconify-json/heroicons@1.1.24':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/mdi@1.1.68':
     dependencies:
       '@iconify/types': 2.0.0
 
