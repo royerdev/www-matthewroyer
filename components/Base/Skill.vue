@@ -11,41 +11,38 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
-  name: String,
-  progress: {
-    type: Number,
-    default: 0,
-  },
-  badge: {
-    type: Boolean,
-    default: false,
-  },
+const props = withDefaults(defineProps<{
+  name: Skill['name'],
+  level: Skill['level'],
+  badge: Skill['badge'],
+}>(), {
+  level: 0,
+  badge: false,
 })
 
 const size = computed(() => {
-  if (props.progress >= 90) {
+  if (props.level >= 90) {
     return 'text-4xl font-bold'
   }
-  else if (props.progress >= 80) {
+  else if (props.level >= 80) {
     return 'text-3xl font-semibold'
   }
-  else if (props.progress >= 70) {
+  else if (props.level >= 70) {
     return 'text-2xl'
   }
-  else if (props.progress >= 60) {
+  else if (props.level >= 60) {
     return 'text-xl'
   }
-  else if (props.progress >= 50) {
+  else if (props.level >= 50) {
     return 'text-lg'
   }
-  else if (props.progress >= 40) {
+  else if (props.level >= 40) {
     return 'text-base'
   }
-  else if (props.progress >= 30) {
+  else if (props.level >= 30) {
     return 'text-sm font-light'
   }
-  else if (props.progress >= 20) {
+  else if (props.level >= 20) {
     return 'text-xs font-extralight'
   }
   else {

@@ -1,4 +1,4 @@
-const skills = [{
+const skills: Skill[] = [{
   name: '.NET / C#',
   level: 30,
   badge: true,

@@ -1,17 +1,17 @@
 <template>
   <BaseSection centered class="bg-blue-950 text-white">
     <BaseSkill
-      v-for="skill in skills"
-      :key="skill.name"
+      v-for="(skill, i) in skills"
+      :key="i"
       :name="skill.name"
-      :progress="skill.level"
+      :level="skill.level"
       :badge="skill.badge"
     />
   </BaseSection>
 </template>
 
 <script setup lang="ts">
-const { data: skills } = useFetch('/api/skills', {
-  transform: data => data.skills,
+const { data: skills } = await useFetch('/api/skills', {
+  transform: data => data.skills || [],
 })
 </script>

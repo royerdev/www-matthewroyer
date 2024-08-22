@@ -22,6 +22,9 @@ const toggleTitles = () => {
 }
 
 defineProps({
-  experience: Object,
+  experience: {
+    type: Object as PropType<Experience>,
+    required: true,
+  },
 })
 </script>
