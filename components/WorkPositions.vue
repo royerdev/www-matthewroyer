@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-let expanded = ref(false)
+const expanded = ref(false)
 
 const toggleTitles = () => {
   expanded.value = !expanded.value

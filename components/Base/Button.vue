@@ -20,7 +20,7 @@ const props = defineProps({
   },
 })
 
-let target = ref('_self')
+const target = ref('_self')
 
 if (props.external) {
   target.value = '_blank'

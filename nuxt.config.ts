@@ -13,17 +13,17 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
         { name: 'description', content: 'Matt Royer is an experienced full-stack software engineer and application designer based in the United States.' },
       ],
-    }
+    },
   },
   nitro: {
     compressPublicAssets: {
-      brotli: true
-    }
+      brotli: true,
+    },
   },
   devtools: { enabled: true },
   eslint: {
     config: {
-      stylistic: true
-    }
+      stylistic: true,
+    },
   },
 })

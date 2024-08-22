@@ -1,16 +1,17 @@
 import { DateTime } from 'luxon'
 
-export default function (value: string, format: string = "MMM yyyy"): string {
+export default function (value: string, format: string = 'MMM yyyy'): string {
   if (['Today', 'Now'].includes(value)) {
-    return value;
+    return value
   }
 
   try {
-    var date = DateTime.fromFormat(value, "M/d/yyyy");
-    return date.toFormat(format);
-  } catch (error) {
-    console.error(`Error parsing value ${value} as date`, error);
+    const date = DateTime.fromFormat(value, 'M/d/yyyy')
+    return date.toFormat(format)
+  }
+  catch (error) {
+    console.error(`Error parsing value ${value} as date`, error)
   }
 
-  return "";
+  return ''
 };

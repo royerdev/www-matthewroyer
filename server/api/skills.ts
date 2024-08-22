@@ -1,152 +1,152 @@
 const skills = [{
-    name: ".NET / C#",
-    level: 30,
-    badge: true
+  name: '.NET / C#',
+  level: 30,
+  badge: true,
 }, {
-    name: "Amplify",
-    level: 50,
-    badge: false
+  name: 'Amplify',
+  level: 50,
+  badge: false,
 }, {
-    name: "API Gateway",
-    level: 50,
-    badge: false
+  name: 'API Gateway',
+  level: 50,
+  badge: false,
 }, {
-    name: "AWS",
-    level: 50,
-    badge: false
+  name: 'AWS',
+  level: 50,
+  badge: false,
 }, {
-    name: "CloudWatch",
-    level: 50,
-    badge: false
+  name: 'CloudWatch',
+  level: 50,
+  badge: false,
 }, {
-    name: "CSS",
-    level: 95,
-    badge: true
+  name: 'CSS',
+  level: 95,
+  badge: true,
 }, {
-    name: "Docker",
-    level: 60,
-    badge: false
+  name: 'Docker',
+  level: 60,
+  badge: false,
 }, {
-    name: "DynamoDB",
-    level: 50,
-    badge: false
+  name: 'DynamoDB',
+  level: 50,
+  badge: false,
 }, {
-    name: "ECS",
-    level: 40,
-    badge: false
+  name: 'ECS',
+  level: 40,
+  badge: false,
 }, {
-    name: "HTML",
-    level: 95,
-    badge: true
+  name: 'HTML',
+  level: 95,
+  badge: true,
 }, {
-    name: "JavaScript",
-    level: 85,
-    badge: true
+  name: 'JavaScript',
+  level: 85,
+  badge: true,
 }, {
-    name: "jQuery",
-    level: 95,
-    badge: true
+  name: 'jQuery',
+  level: 95,
+  badge: true,
 }, {
-    name: "JSON",
-    level: 95,
-    badge: true
+  name: 'JSON',
+  level: 95,
+  badge: true,
 }, {
-    name: "LaunchDarkly",
-    level: 50,
-    badge: false
+  name: 'LaunchDarkly',
+  level: 50,
+  badge: false,
 }, {
-    name: "Lambda",
-    level: 50,
-    badge: false
+  name: 'Lambda',
+  level: 50,
+  badge: false,
 }, {
-    name: "MySQL",
-    level: 75,
-    badge: true
+  name: 'MySQL',
+  level: 75,
+  badge: true,
 }, {
-    name: "Node.js",
-    level: 70,
-    badge: true
+  name: 'Node.js',
+  level: 70,
+  badge: true,
 }, {
-    name: "Nuxt",
-    level: 90,
-    badge: false
+  name: 'Nuxt',
+  level: 90,
+  badge: false,
 }, {
-    name: "PHP",
-    level: 60,
-    badge: true
+  name: 'PHP',
+  level: 60,
+  badge: true,
 }, {
-    name: "Pinia",
-    level: 70,
-    badge: false
+  name: 'Pinia',
+  level: 70,
+  badge: false,
 }, {
-    name: "Playwright",
-    level: 50,
-    badge: false
+  name: 'Playwright',
+  level: 50,
+  badge: false,
 }, {
-    name: "Route 53",
-    level: 40,
-    badge: false
+  name: 'Route 53',
+  level: 40,
+  badge: false,
 }, {
-    name: "Ruby on Rails",
-    level: 50,
-    badge: true
+  name: 'Ruby on Rails',
+  level: 50,
+  badge: true,
 }, {
-    name: "React",
-    level: 60,
-    badge: true
+  name: 'React',
+  level: 60,
+  badge: true,
 }, {
-    name: "S3",
-    level: 50,
-    badge: false
+  name: 'S3',
+  level: 50,
+  badge: false,
 }, {
-    name: "SASS",
-    level: 90,
-    badge: false
+  name: 'SASS',
+  level: 90,
+  badge: false,
 }, {
-    name: "Serverless",
-    level: 40,
-    badge: false
+  name: 'Serverless',
+  level: 40,
+  badge: false,
 }, {
-    name: "SQS",
-    level: 40,
-    badge: false
+  name: 'SQS',
+  level: 40,
+  badge: false,
 }, {
-    name: "Tailwindcss",
-    level: 70,
-    badge: false
+  name: 'Tailwindcss',
+  level: 70,
+  badge: false,
 }, {
-    name: "TypeScript",
-    level: 80,
-    badge: true
+  name: 'TypeScript',
+  level: 80,
+  badge: true,
 }, {
-    name: "LESS",
-    level: 90,
-    badge: false
+  name: 'LESS',
+  level: 90,
+  badge: false,
 }, {
-    name: "SEO",
-    level: 60,
-    badge: false
+  name: 'SEO',
+  level: 60,
+  badge: false,
 }, {
-    name: "Storybook",
-    level: 70,
-    badge: false
+  name: 'Storybook',
+  level: 70,
+  badge: false,
 }, {
-    name: "Swift",
-    level: 50,
-    badge: false
+  name: 'Swift',
+  level: 50,
+  badge: false,
 }, {
-    name: "Vue.js",
-    level: 80,
-    badge: false
+  name: 'Vue.js',
+  level: 80,
+  badge: false,
 }, {
-    name: "WordPress",
-    level: 60,
-    badge: true
+  name: 'WordPress',
+  level: 60,
+  badge: true,
 }]
 
-export default defineEventHandler((event) => {
-    return {
-        total: skills.length,
-        skills: shuffleArray(skills),
-    }
+export default defineEventHandler(() => {
+  return {
+    total: skills.length,
+    skills: shuffleArray(skills),
+  }
 })

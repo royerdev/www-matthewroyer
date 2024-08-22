@@ -1,5 +1,4 @@
 import type { Config } from 'tailwindcss'
-import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
   theme: {
@@ -26,12 +25,12 @@ export default <Partial<Config>>{
       },
     },
     letterSpacing: {
-      'tighter': '-0.05em',
-      'tight': '0em',
-      'normal': '0.1em',
-      'wide': '0.15em',
-      'wider': '0.5em',
-      'widest': '0.75em',
+      tighter: '-0.05em',
+      tight: '0em',
+      normal: '0.1em',
+      wide: '0.15em',
+      wider: '0.5em',
+      widest: '0.75em',
     },
   },
   darkMode: 'class',

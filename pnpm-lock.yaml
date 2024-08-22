@@ -39,6 +39,9 @@ importers:
       '@iconify-json/mdi':
         specifier: ^1.1.68
         version: 1.1.68
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
 
 packages:
 
