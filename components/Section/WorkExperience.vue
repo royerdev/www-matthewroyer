@@ -5,10 +5,12 @@
         <WorkTitle :title="experience.company" :subtitle="getReadableTime(experience.titles)" />
         <WorkPositions :experience="experience" />
       </div>
-      <span class="text-sm font-medium cursor-pointer flex gap-1 items-center ml-6" v-if="shownExperiences.length < experiences.length" @click="showAll">
-          Show {{ experiences.length - shownExperiences.length }}  more
-          <BaseChevron direction="up" />
-        </span>
+
+        <ShowMore
+            v-if="shownExperiences.length < experiences.length"
+            :count="experiences.length - shownExperiences.length"
+            @toggle="showAll"
+        />
     </div>
   </BaseSection>
 </template>

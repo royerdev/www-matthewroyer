@@ -9,20 +9,11 @@
         v-bind="title"
       />
     </template>
-    <span
+    <ShowMore
       v-if="experience.titles.length > 1"
-      class="text-sm font-medium cursor-pointer flex gap-1 items-center"
-      @click="toggleTitles"
-    >
-      <template v-if="!expanded">
-        Show {{ experience.titles.length - 1 }} more
-        <BaseChevron direction="down" />
-      </template>
-      <template v-else>
-        Show less
-        <BaseChevron direction="up" />
-      </template>
-    </span>
+      :count="experience.titles.length - 1"
+      @toggle="toggleTitles"
+    />
   </div>
 </template>
 
