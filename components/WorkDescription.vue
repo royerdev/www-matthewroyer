@@ -1,12 +1,12 @@
 <template>
   <div class="mb-4 mt-4">
     <div class="flex items-center mb-1 gap-2 flex-wrap">
-      <h4 class="font-medium relative before:content-[''] before:block before:box-content before:absolute before:-left-[44px] before:top-1/2 before:-translate-y-1/2 before:h-[7px] before:w-[7px] before:bg-primary before:rounded-full before:border-[9px] before:border-gray-100 dark:before:border-gray-900">
+      <h4 class="font-medium relative before:content-[''] before:block before:box-content before:absolute before:-left-[44px] before:top-1/2 before:-translate-y-1/2 before:h-[7px] before:w-[7px] before:bg-primary before:rounded-full before:border-[9px] before:border-white dark:before:border-gray-800">
         {{ title }}
       </h4>
       <span
         v-if="timeframe"
-        class="text-xs text-gray-600"
+        class="text-xs text-gray-600 dark:text-gray-400"
       >{{ timeframe }}</span>
     </div>
     <p

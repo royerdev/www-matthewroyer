@@ -1,6 +1,6 @@
 <template>
   <div class="flex gap-2 items-center">
-    <div class="z-10 border-8 border-gray-100 dark:border-gray-900 box-content w-12 h-12 rounded-full text-white bg-primary flex font-extrabold justify-center items-center">
+    <div class="z-10 border-8 border-white dark:border-gray-800 box-content w-12 h-12 rounded-full text-white bg-primary flex font-extrabold justify-center items-center">
       {{ (title || "")[0]?.toUpperCase() }}
     </div>
     <div>

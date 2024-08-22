@@ -8,7 +8,7 @@
         sizes="sm:200px md:320px"
         :width="320"
         :height="398"
-        class="w-full max-w-72 sm:rounded-lg border-4 border-white dark:border-gray-900 shadow-lg sm:w-1/3 overflow-hidden"
+        class="w-full max-w-72 sm:rounded-lg border-4 border-white dark:border-gray-800 shadow-lg sm:w-1/3 overflow-hidden"
       />
       <div class="text-left space-y-4 text-base leading-7 sm:w-2/3">
         <h2 class="text-2xl font-medium">

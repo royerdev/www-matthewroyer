@@ -1,7 +1,7 @@
 <template>
   <BaseSection
     centered
-    class="!p-6 text-xs"
+    class="!p-6 text-xs text-gray-400 bg-gray-900"
   >
     <p class="tracking-wide">
       &copy; {{ new Date().getFullYear() }}

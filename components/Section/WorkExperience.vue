@@ -1,5 +1,5 @@
 <template>
-  <BaseSection class="bg-gray-100 dark:bg-gray-900">
+  <BaseSection>
     <div class="text-left space-y-4 text-base leading-7 max-w-lg m-auto flex gap-4 flex-col">
       <div v-for="(experience, i) in shownExperiences" :key="i" class="relative">
         <WorkTitle :title="experience.company" :subtitle="getReadableTime(experience.titles)" />
