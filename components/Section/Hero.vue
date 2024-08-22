@@ -7,7 +7,7 @@
       class="space-y-2 text-base leading-7 min-h mb-6 z-10"
       :style="`opacity: ${opacity}`"
     >
-      <h1 class="mb-4 text-3xl sm:text-5xl md:text-6xl tracking-tight">
+      <h1 class="mb-2 sm:mb-4 text-3xl sm:text-5xl md:text-6xl tracking-tight">
         Software &amp; Production
       </h1>
       <p class="text-1xl sm:text-2xl tracking-wider md:tracking-widest text-gray-400">
