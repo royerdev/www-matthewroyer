@@ -1,8 +1,5 @@
 <template>
-    <UIcon
-        :name="`mdi:chevron-${direction}`"
-        class="w-6 h-6"
-    />
+  <UIcon :name="`mdi:chevron-${direction}`" class="w-6 h-6" />
 </template>
 
 <script setup lang="ts">

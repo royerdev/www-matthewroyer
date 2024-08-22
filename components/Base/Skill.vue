@@ -3,10 +3,7 @@
     class="flex flex-1 flex-row gap-1 items-center justify-center my-2 mx-4 text-blue-300 group relative cursor-default"
     :class="badgeClasses"
   >
-    <p
-      class="text-nowrap"
-      :class="size"
-    >
+    <p class="text-nowrap" :class="size">
       {{ name }}
     </p>
     <LinkedInBadge v-if="badge" />

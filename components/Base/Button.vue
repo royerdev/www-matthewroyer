@@ -6,14 +6,8 @@
     :external="external"
     :target="target"
   >
-    <template
-      v-if="external"
-      #trailing
-    >
-      <UIcon
-        name="mdi:launch"
-        class="w-4 h-4"
-      />
+    <template v-if="external" #trailing>
+      <UIcon name="mdi:launch" class="w-4 h-4" />
     </template>
   </UButton>
 </template>

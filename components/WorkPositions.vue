@@ -1,11 +1,8 @@
 <template>
   <div class="ml-16 before:content-[''] before:block before:absolute before:top-0 before:left-[31px] before:h-full before:border before:border-gray-300 before:rounded-[23px] before:box-content">
-    <template
-      v-for="(title, j) in experience.titles"
-      :key="j"
-    >
+    <template v-for="(title, i) in experience.titles" :key="i">
       <WorkDescription
-        v-if="j === 0 || expanded"
+        v-if="i === 0 || expanded"
         v-bind="title"
       />
     </template>

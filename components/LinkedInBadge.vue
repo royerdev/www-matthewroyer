@@ -1,9 +1,6 @@
 <template>
   <div class="pointer-events-none absolute bg-black text-gray-300 text-xs w-40 m-auto left-1/2 transform -translate-x-1/2 p-2 -bottom-14 -mb-1 opacity-0 transition-opacity group-hover:opacity-100 flex flex-row gap-2 justify-between items-center z-10 shadow text-left">
-    <div
-      class="invisible absolute h-4 w-4 bg-inherit m-auto left-1/2 transform -translate-x-1/2 -top-2 before:visible before:absolute before:h-4 before:w-4 before:rotate-45 before:bg-inherit before:content-['']"
-      data-popper-arrow
-    />
+    <div data-popper-arrow class="invisible absolute h-4 w-4 bg-inherit m-auto left-1/2 transform -translate-x-1/2 -top-2 before:visible before:absolute before:h-4 before:w-4 before:rotate-45 before:bg-inherit before:content-['']" />
     <svg
       data-tooltip-target="tooltip-default"
       xmlns="http://www.w3.org/2000/svg"

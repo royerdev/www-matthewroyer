@@ -1,8 +1,5 @@
 <template>
-  <BaseSection
-    centered
-    class="!p-6 bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs"
-  >
+  <BaseSection centered class="!p-6 bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs">
     <p class="max-w-[500px] m-auto">
       This site was carefully designed for performance, accessibility, user experience, and SEO. Run a lighthouse scan on this page to see for yourself.
     </p>

@@ -1,8 +1,5 @@
 <template>
-  <BaseSection
-    centered
-    class="bg-blue-950 text-white"
-  >
+  <BaseSection centered class="bg-blue-950 text-white">
     <BaseSkill
       v-for="skill in skills"
       :key="skill.name"
