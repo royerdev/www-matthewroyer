@@ -18,24 +18,16 @@
           I'm a tech enthusiast with a Bachelor of Science in Information Technology from <NuxtLink
             to="https://www.georgiasouthern.edu/cec/it/bsit"
             target="_blank"
-          >
-            Georgia Southern University
-          </NuxtLink>, where I specialized in web, multimedia, and music technology. As a seasoned full-stack software engineer based in Georgia (US), I thrive on solving complex problems and creating innovative solutions. When I am not working on software, I love watching soccer, attending concerts, and tackling home projects. <NuxtLink
+          >Georgia Southern University</NuxtLink>, where I specialized in web, multimedia, and music technology. As a seasoned full-stack software engineer based in Georgia (US), I thrive on solving complex problems and creating innovative solutions. When I am not working on software, I love watching soccer, attending concerts, and tackling home projects. <NuxtLink
             to="https://www.atlutd.com"
             target="_blank"
-          >
-            @ATLUTD
-          </NuxtLink> <NuxtLink
+          >@ATLUTD</NuxtLink> <NuxtLink
             to="https://localnatives.com"
             target="_blank"
-          >
-            @localnatives
-          </NuxtLink> <NuxtLink
+          >@localnatives</NuxtLink> <NuxtLink
             to="https://www.nbthieves.com"
             target="_blank"
-          >
-            @NBThieves
-          </NuxtLink>
+          >@NBThieves</NuxtLink>
         </p>
         <p>I designed and developed this website in <a href="https://vuejs.org">Vue 3</a> powered by the <a href="https://nuxt.com">Nuxt 3</a> framework. The sourcecode can be found on my GitHub. If you have any questions or simply want to say hello, feel to reach out on LinkedIn.</p>
         <div class="flex flex-row gap-2" />
