@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8 sm:p-16 mx-auto">
+  <div class="p-8 sm:p-16 mx-auto relative">
     <div class="flex flex-wrap mx-auto max-w-4xl" :class="centeredClass">
       <slot />
     </div>
