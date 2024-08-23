@@ -1,7 +1,10 @@
 <template>
-  <BaseSection centered class="!p-6 bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs">
-    <p class="max-w-[500px] m-auto">
-      This site was carefully designed for performance, accessibility, user experience, and SEO. Run a lighthouse scan on this page to see for yourself.
+  <BaseSection centered class="dark bg-blue-900 text-gray-600 dark:text-gray-300 text-xs">
+    <LighthouseReport />
+    <p class="max-w-[450px] m-auto text-gray-300">
+      This site was carefully designed for performance, accessibility, user experience, and SEO. Run a
+      <NuxtLink to="https://pagespeed.web.dev/analysis/https-www-matthewroyer-com/dsosarr2v3?form_factor=desktop" target="_blank">scan</NuxtLink>
+      to see for yourself.
     </p>
   </BaseSection>
 </template>
