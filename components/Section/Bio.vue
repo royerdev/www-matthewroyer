@@ -24,10 +24,12 @@
         </p>
         <p>
           I designed and developed this website in
-          <NuxtLink href="https://vuejs.org" target="_blank">Vue 3</NuxtLink>
+          <NuxtLink to="https://vuejs.org" target="_blank">Vue 3</NuxtLink>
           powered by the
-          <NuxtLink href="https://nuxt.com" target="_blank">Nuxt 3</NuxtLink>
-          framework. The sourcecode can be found on my GitHub. If you have any questions or simply want to say hello, feel to reach out on LinkedIn.
+          <NuxtLink to="https://nuxt.com" target="_blank">Nuxt 3</NuxtLink>
+          framework. The
+          <NuxtLink to="https://github.com/royerdev/www-matthewroyer" target="_blank">source code</NuxtLink>
+          can be found on my GitHub. If you have any questions or simply want to say hello, feel to reach out on LinkedIn.
         </p>
       </div>
     </div>
