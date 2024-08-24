@@ -16,9 +16,13 @@
 import { useWindowScroll } from '@vueuse/core'
 
 const { y } = useWindowScroll()
+const opacity = ref(1)
 
-const opacity = computed(() => {
-  const opacity = 1 - (y.value / 120)
-  return Math.max(0, Math.min(1, opacity))
+onMounted(() => {
+  opacity.value = 1 - (y.value / 120)
+})
+
+watch(y, () => {
+  opacity.value = Math.max(0, Math.min(1, 1 - (y.value / 120)))
 })
 </script>

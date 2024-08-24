@@ -1,11 +1,10 @@
 <template>
   <BaseSection>
     <div class="flex gap-8 flex-col sm:flex-row items-center sm:items-start">
-      <NuxtImg
+      <img
         src="/img/profile.webp"
         class="w-full max-w-72 rounded-xl border-4 border-gray-200 dark:border-gray-700 shadow-lg sm:w-1/3 overflow-hidden"
         alt="Picture of Matt Royer"
-        sizes="sm:200px md:320px"
         :width="320"
         :height="398"
       />

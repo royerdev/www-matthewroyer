@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
-  modules: ['@nuxt/ui', '@nuxt/image', '@vueuse/nuxt', '@nuxt/eslint'],
+  modules: ['@nuxt/ui', '@vueuse/nuxt', '@nuxt/eslint'],
   app: {
     head: {
       title: 'Matt Royer',
