@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute z-0 -inset-20 opacity-30 bg-fixed bg-no-repeat bg-[left_-2.5rem] bg-contain" :style="styles" />
+  <div class="absolute z-0 -inset-20 opacity-30 bg-fixed bg-no-repeat bg-[left_-2.5rem] bg-cover" :style="styles" />
 </template>
 
 <script setup>
@@ -15,7 +15,7 @@ const blur = computed(() => {
 const img = useImage()
 
 const styles = computed(() => {
-  const imgUrl = img('/img/banner.png', { format: 'webp' })
+  const imgUrl = img('/img/banner.webp', { placeholder: true })
   return {
     backgroundImage: `url('${imgUrl}')`,
     filter: `blur(${blur.value}px)`,
