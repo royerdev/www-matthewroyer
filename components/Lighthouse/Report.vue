@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex items-center justify-center sm:mb-8 gap-8">
+    <div class="w-full flex items-center justify-center gap-16 sm:mb-8 sm:mt-2">
       <LighthouseScore
         class="hidden sm:block"
         v-for="(metric, index) in metrics"
