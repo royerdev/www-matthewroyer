@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute z-0 -inset-20 opacity-30 bg-fixed bg-no-repeat bg-[left_-2.5rem]" :style="styles" />
+  <div class="absolute z-0 -inset-20 opacity-30 bg-fixed bg-no-repeat bg-[left_-2.5rem] bg-contain" :style="styles" />
 </template>
 
 <script setup>
