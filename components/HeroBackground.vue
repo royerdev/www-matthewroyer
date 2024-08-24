@@ -10,7 +10,7 @@ const blur = ref(0)
 
 const calculateBlur = () => {
   if (!y.value) return 0
-  const blur = (y.value / 40);
+  const blur = (y.value / 40)
   return Math.max(0, Math.min(5, blur)) // Min 0, Max 5
 }
 

@@ -12,9 +12,9 @@
 
 <script setup lang="ts">
 const props = withDefaults(defineProps<{
-  name: Skill['name'],
-  level: Skill['level'],
-  badge: Skill['badge'],
+  name: Skill['name']
+  level: Skill['level']
+  badge: Skill['badge']
 }>(), {
   level: 0,
   badge: false,

@@ -5,9 +5,8 @@
       <p>&bullet;</p>
       <NuxtLink to="/privacy">Privacy</NuxtLink>
       <p>&bullet;</p>
-      <span class="block sm:hidden"></span>
+      <span class="block sm:hidden" />
       <p>Designed by <NuxtLink to="https://matthewroyer.com">Matt Royer</NuxtLink></p>
     </div>
   </BaseSection>
 </template>
-

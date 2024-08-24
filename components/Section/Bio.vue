@@ -7,7 +7,7 @@
         alt="Picture of Matt Royer"
         :width="320"
         :height="398"
-      />
+      >
       <div class="text-left space-y-4 text-base leading-7 sm:w-2/3">
         <h2 class="text-2xl font-medium">
           Software Engineer
