@@ -28,11 +28,11 @@ const props = defineProps({
 
 const emit = defineEmits(['toggle', 'open', 'close'])
 
-const expanded = ref(props.expanded)
-
 const moreText = computed(() => {
   return ['Show', props.count, 'more'].join(' ')
 })
+
+const expanded = ref(props.expanded)
 
 const toggle = () => {
   expanded.value = !expanded.value

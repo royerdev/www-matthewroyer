@@ -1,6 +1,6 @@
 <template>
   <div class="p-8 sm:p-16 mx-auto relative">
-    <div class="flex flex-wrap mx-auto max-w-4xl" :class="centeredClass">
+    <div class="flex flex-wrap mx-auto max-w-4xl" :class="style">
       <slot />
     </div>
   </div>
@@ -11,7 +11,7 @@ const props = defineProps({
   centered: Boolean,
 })
 
-const centeredClass = computed(() => {
+const style = computed(() => {
   return {
     'text-center justify-center': props.centered,
   }

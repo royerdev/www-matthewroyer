@@ -2,7 +2,7 @@
   <div class="absolute z-0 -inset-20 opacity-30 bg-fixed bg-no-repeat bg-[left_-2.5rem] bg-[url('/img/banner.webp')] bg-cover" :style="`filter:blur(${blur}px)`" />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useWindowScroll } from '@vueuse/core'
 
 const { y } = useWindowScroll()

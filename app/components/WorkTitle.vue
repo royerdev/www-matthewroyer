@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 defineProps({
-  title: String,
-  subtitle: String,
+  title: { type: String, required: true },
+  subtitle: { type: String, default: null },
 })
 </script>

@@ -3,9 +3,7 @@
     <BaseSkill
       v-for="(skill, i) in skills"
       :key="i"
-      :name="skill.name"
-      :level="skill.level"
-      :badge="skill.badge"
+      v-bind="skill"
     />
   </BaseSection>
 </template>

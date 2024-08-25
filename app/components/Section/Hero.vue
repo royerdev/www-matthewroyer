@@ -12,7 +12,7 @@
   </BaseSection>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useWindowScroll } from '@vueuse/core'
 
 const { y } = useWindowScroll()

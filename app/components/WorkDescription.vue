@@ -16,10 +16,10 @@
 
 <script setup lang="ts">
 const props = defineProps({
-  title: String,
-  start: String,
-  end: String,
-  description: String,
+  title: { type: String, required: true },
+  start: { type: String, default: null },
+  end: { type: String, default: null },
+  description: { type: String, default: null },
 })
 
 const timeframe = computed(() => {

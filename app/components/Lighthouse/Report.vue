@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const metrics = ref([
   { label: 'Performance', value: 100 },
   { label: 'Accessibility', value: 100 },
