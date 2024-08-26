@@ -1,5 +1,5 @@
 <template>
-  <BaseSection>
+  <BaseSection class="bg-white dark:bg-gray-800">
     <div class="text-left space-y-4 text-base leading-7 max-w-lg m-auto flex gap-4 flex-col">
       <div v-for="(position, i) in shownExperience" :key="i" class="relative">
         <WorkTitle

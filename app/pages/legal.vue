@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8 sm:p-16 mx-auto relative">
+  <div class="p-8 sm:p-16 mx-auto relative bg-white dark:bg-gray-800">
     <div class="mx-auto max-w-xl">
       <h1>Disclaimer</h1>
       <p>The opinions and views expressed on this website are solely mine and do not necessarily reflect the views or positions of any current or former employers, companies, or organizations mentioned or linked to on this site.</p>

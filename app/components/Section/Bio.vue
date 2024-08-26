@@ -1,5 +1,5 @@
 <template>
-  <BaseSection>
+  <BaseSection class="bg-white dark:bg-gray-800">
     <div class="flex gap-8 flex-col sm:flex-row items-center sm:items-start">
       <img
         src="/img/profile.webp"
