@@ -3,7 +3,7 @@
     <div class="tracking-wide flex gap-1 flex-wrap justify-center">
       <p>&copy; {{ new Date().getFullYear() }}</p>
       <p>&bullet;</p>
-      <NuxtLink to="/privacy">Privacy</NuxtLink>
+      <NuxtLink to="/legal">Legal</NuxtLink>
       <p>&bullet;</p>
       <span class="block sm:hidden" />
       <p>Designed by <NuxtLink to="https://matthewroyer.com">Matt Royer</NuxtLink></p>
