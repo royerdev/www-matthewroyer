@@ -11,6 +11,7 @@
       <ShowMore
         v-if="shownExperience.length < experience.length"
         :count="experience.length - shownExperience.length"
+        class="ml-6 !-mt-0"
         @toggle="showAll"
       />
     </div>

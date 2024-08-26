@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-4 mt-4">
+  <div class="mb-2 mt-4">
     <div class="flex items-center mb-1 gap-2 flex-wrap">
       <h4 class="font-medium relative before:content-[''] before:block before:box-content before:absolute before:-left-[44px] before:top-1/2 before:-translate-y-1/2 before:h-[7px] before:w-[7px] before:bg-primary before:rounded-full before:border-[9px] before:border-white dark:before:border-gray-800">
         {{ title }}

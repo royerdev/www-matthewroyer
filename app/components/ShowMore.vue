@@ -1,6 +1,6 @@
 <template>
   <span
-    class="text-sm font-medium cursor-pointer flex gap-1 items-center text-gray-500 dark:text-gray-400"
+    class="text-sm font-medium cursor-pointer inline-flex gap-1 items-center text-gray-500 dark:text-gray-400"
     @click="toggle"
   >
     <template v-if="!expanded">
