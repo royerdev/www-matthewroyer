@@ -2,14 +2,14 @@
   <div
     class="w-full flex items-center justify-center gap-16 sm:mb-8 sm:mt-2"
     ref="lighthouseReport"
-    @mouseenter="sendConfetti"
   >
     <LighthouseScore
       v-for="(metric, index) in metrics"
       :key="index"
-      class="hidden sm:block"
+      class="hidden sm:block cursor-default"
       :label="metric.label"
       :score="metric.value"
+      @click="sendConfetti"
     />
     <LighthouseScore
       class="block sm:hidden"
@@ -29,7 +29,6 @@ const metrics = ref([
 ])
 
 const lighthouseReport = ref(null)
-const confettiCount = ref(0)
 
 onMounted(() => {
   if (import.meta.client && lighthouseReport.value) {
@@ -39,8 +38,6 @@ onMounted(() => {
 })
 
 const sendConfetti = () => {
-  confettiCount.value++
-  if (confettiCount.value > 10) return
   const x = Math.random() * 0.4 + 0.3 // Random number between 0.3 and 0.7
   confetti({
     shapes: ['circle'],
