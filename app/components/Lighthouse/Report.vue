@@ -9,11 +9,12 @@
       class="hidden sm:block cursor-default"
       :label="metric.label"
       :score="metric.value"
-      @click="sendConfetti"
+      @click="sendConfetti()"
     />
     <LighthouseScore
       class="block sm:hidden"
       :score="metrics.reduce((acc, metric) => acc + metric.value, 0) / metrics.length"
+      @click="sendConfetti()"
     />
   </div>
 </template>
@@ -37,12 +38,12 @@ onMounted(() => {
   }
 })
 
-const sendConfetti = () => {
-  const x = Math.random() * 0.4 + 0.3 // Random number between 0.3 and 0.7
+const sendConfetti = ({ x = 0 } = {}) => {
+  x = x || Math.random() * 0.8 + 0.1 // Default to random number between 0.1 and 0.9
   confetti({
     shapes: ['circle'],
-    scalar: 0.5,
-    origin: { x, y: 0.8 },
+    scalar: 0.6,
+    origin: { x, y: 1 },
   })
 }
 
@@ -53,9 +54,10 @@ interface IntersectionObserverEntry {
 const onIntersection = (entries: IntersectionObserverEntry[]) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      // Send it twice initially
-      sendConfetti()
-      sendConfetti()
+      sendConfetti({ x: 0.2 })
+      setTimeout(() => sendConfetti({ x: 0.4 }), 100)
+      setTimeout(() => sendConfetti({ x : 0.6 }), 300)
+      sendConfetti({ x: 0.8 })
     }
   })
 }
