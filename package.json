@@ -16,7 +16,7 @@
   "dependencies": {
     "@nuxt/eslint": "^0.5.2",
     "@nuxt/ui": "^2.18.4",
-    "@vueuse/core": "^11.0.1",
+    "@vueuse/core": "^11.0.3",
     "@vueuse/nuxt": "^11.0.1",
     "canvas-confetti": "^1.9.3",
     "luxon": "^3.5.0",
