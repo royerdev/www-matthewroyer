@@ -1,7 +1,7 @@
 <template>
   <div
-    class="w-full flex items-center justify-center gap-16 sm:mb-8 sm:mt-2"
     ref="lighthouseReport"
+    class="w-full flex items-center justify-center gap-16 sm:mb-8 sm:mt-2"
   >
     <LighthouseScore
       v-for="(metric, index) in metrics"
@@ -48,7 +48,7 @@ const sendConfetti = ({ x = 0 } = {}) => {
 }
 
 interface IntersectionObserverEntry {
-  isIntersecting: boolean;
+  isIntersecting: boolean
 }
 
 const onIntersection = (entries: IntersectionObserverEntry[]) => {
@@ -56,7 +56,7 @@ const onIntersection = (entries: IntersectionObserverEntry[]) => {
     if (entry.isIntersecting) {
       sendConfetti({ x: 0.2 })
       setTimeout(() => sendConfetti({ x: 0.4 }), 100)
-      setTimeout(() => sendConfetti({ x : 0.6 }), 300)
+      setTimeout(() => sendConfetti({ x: 0.6 }), 300)
       sendConfetti({ x: 0.8 })
     }
   })

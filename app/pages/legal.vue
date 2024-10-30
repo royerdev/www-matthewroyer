@@ -13,26 +13,26 @@
       <h2>Information We Collect</h2>
       <p>We may collect and process the following types of information when you use this website:</p>
       <ul>
-          <li><strong>Personal Information</strong> that you voluntarily provide.</li>
-          <li>
-            <strong>Usage Data</strong> about how you interact with the website, such as your IP address, browser type, referring/exit pages, and the pages you visit on the site. This data helps us understand how visitors use the site and improve its functionality. You can opt-out of this usage anytime by installing a
-            <NuxtLink to="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank">browser plugin</NuxtLink>.
-          </li>
+        <li><strong>Personal Information</strong> that you voluntarily provide.</li>
+        <li>
+          <strong>Usage Data</strong> about how you interact with the website, such as your IP address, browser type, referring/exit pages, and the pages you visit on the site. This data helps us understand how visitors use the site and improve its functionality. You can opt-out of this usage anytime by installing a
+          <NuxtLink to="https://tools.google.com/dlpage/gaoptout" rel="noopener noreferrer" target="_blank">browser plugin</NuxtLink>.
+        </li>
       </ul>
 
       <h2>Use of Information</h2>
       <p>The information collected is used for the following purposes:</p>
       <ul>
-          <li><strong>To Communicate:</strong> We may use your contact information to respond to inquiries, provide updates, or offer information that may be relevant to your interests.</li>
-          <li><strong>To Improve the Website:</strong> Usage data is analyzed to understand visitor behavior and preferences, allowing us to enhance the user experience and the content we offer.</li>
-          <li><strong>To Comply with Legal Obligations:</strong> We may process your information to comply with applicable laws, regulations, or legal processes.</li>
+        <li><strong>To Communicate:</strong> We may use your contact information to respond to inquiries, provide updates, or offer information that may be relevant to your interests.</li>
+        <li><strong>To Improve the Website:</strong> Usage data is analyzed to understand visitor behavior and preferences, allowing us to enhance the user experience and the content we offer.</li>
+        <li><strong>To Comply with Legal Obligations:</strong> We may process your information to comply with applicable laws, regulations, or legal processes.</li>
       </ul>
 
       <h2>Sharing of Information</h2>
       <p>We do not sell, trade, or rent your personal information to third parties. However, we may share your information in the following circumstances:</p>
       <ul>
-          <li><strong>With Service Providers:</strong> We may share information with trusted third-party service providers who assist us in operating the website or conducting our business, so long as they agree to keep this information confidential.</li>
-          <li><strong>For Legal Reasons:</strong> We may disclose your information if required by law or in response to valid requests by public authorities.</li>
+        <li><strong>With Service Providers:</strong> We may share information with trusted third-party service providers who assist us in operating the website or conducting our business, so long as they agree to keep this information confidential.</li>
+        <li><strong>For Legal Reasons:</strong> We may disclose your information if required by law or in response to valid requests by public authorities.</li>
       </ul>
 
       <h2>Security of Your Information</h2>
