@@ -6,7 +6,7 @@ const experience: Experience[] = [{
     title: 'Staff Software Engineer',
     start: '8/1/2024',
     end: 'Now',
-    description: 'Promoted to staff engineer. Started planning work for moving from AWS CloudSearch to OpenSearch.',
+    description: 'Worked on generating and exposing more short-form content. Improved web vitals. Migrated our search instance from CloudSearch to OpenSearch.',
   }, {
     title: 'Lead Software Engineer',
     start: '5/1/2023',
