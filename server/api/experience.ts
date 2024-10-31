@@ -6,17 +6,17 @@ const experience: Experience[] = [{
     title: 'Staff Software Engineer',
     start: '8/1/2024',
     end: 'Now',
-    description: 'Worked on generating and exposing more short-form content. Improved web vitals. Migrated our search instance from CloudSearch to OpenSearch.',
+    description: 'Led efforts to generate and showcase more short-form content, optimize web vitals, and create a plan for migrating our search infrastructure from CloudSearch to OpenSearch.',
   }, {
     title: 'Lead Software Engineer',
     start: '5/1/2023',
     end: '8/1/2024',
-    description: 'Promoted to lead engineer. Successfully applied "external link account" entitlement bypassing In-App Purchase for subscriptions on iOS and tvOS native appications. Upgraded web project from Nuxt v2 to v3. Implemented Storybook and Nuxt Layer UI architecture. Reduced docker image size by 85%. Worked directly with product to translate feature ideas into technical specifications.',
+    description: 'Implemented an "external link account" entitlement, enabling a bypass for in-app purchasing on iOS/tvOS native applications. Led an upgrade of the web project from Nuxt v2 to v3. Integrated Storybook and established a modular UI architecture with Nuxt Layers. Achieved an 85% reduction in Docker image size. Collaborated closely with product teams to transform feature ideas into detailed technical specifications.',
   }, {
     title: 'Senior Software Engineer',
     start: '4/1/2022',
     end: '5/1/2023',
-    description: 'Web team member. Achieved significant milestones in removing tech debt, squashing bugs, improving performance and load times across various microservices.',
+    description: 'Web engineering team member dedicated to reducing tech debt, resolving critical bugs, and enhancing performance and load times across multiple microservices, achieving impactful milestones along the way.',
   }],
 }, {
   company: 'Gulfstream Aerospace',
@@ -26,27 +26,27 @@ const experience: Experience[] = [{
     title: 'Application Designer II',
     start: '2/1/2020',
     end: '4/1/2022',
-    description: 'Organized an enhancement team that used scrum methodology to enhance existing applications. Participated on a mobile app redesign project as a member of the iOS / Swift team.',
+    description: 'Led an enhancement team utilizing Scrum methodology to improve critical business web applications. Contributed to a mobile app redesign project on the iOS/Swift development team.',
   }, {
     title: 'Application Designer I',
     start: '5/1/2018',
     end: '2/1/2020',
-    description: 'Responsible for converting the intranet portal into a responsive and mobile friendly layout. Leveraged SharePoint REST APIs and server caching to consolidate articles across departments. Implemented new technologies and best practices on our development team.',
+    description: 'Lead Engineer tasked with transforming the intranet portal into a fully responsive, mobile-friendly platform. Utilized SharePoint REST APIs and server-side caching to streamline article consolidation across departments. Introduced new technologies and development best practices to enhance team efficiency and code quality.',
   }, {
     title: 'Application Developer I',
     start: '2/1/2014',
     end: '5/1/2016',
-    description: 'Lead administrator for SharePoint 2013 builds. Responsible for installing, configuring, and maintaining an on-premise SharePoint 2013 farm which consisted of over 40 servers and multiple environments.',
+    description: 'Served as the lead administrator for SharePoint 2013 deployments, overseeing the installation, configuration, and maintenance of a comprehensive on-premise SharePoint 2013 farm with over 40 servers across multiple environments.',
   }, {
     title: 'Application Developer Associate',
     start: '6/1/2013',
     end: '3/1/2014',
-    description: 'Helped deploy a pilot instance of SharePoint 2013. Performed custom development for the business.',
+    description: 'Assisted in deploying a pilot instance of SharePoint 2013. Provided custom web development to meet specific business needs.',
   }, {
     title: 'Internship',
     start: '6/1/2012',
     end: '6/1/2013',
-    description: 'Develop SharePoint site collections, web parts, InfoPath forms, workflows, permissions, and more to increase collaboration and efficiency in different departments.',
+    description: 'Design and develop SharePoint site collections, web parts, InfoPath forms, workflows, and permissions to enhance collaboration and streamline efficiency across departments.',
   }],
 }, {
   company: 'Compassion Christian Church',
@@ -56,12 +56,12 @@ const experience: Experience[] = [{
     title: 'Consultant',
     start: '10/1/2020',
     end: '6/1/2021',
-    description: 'Responsible for training new staff on audio concepts like gain structure, compression, equalization, and basic console operations/routing. Developed a portal for congregants to collaborate on weekly devotionals.',
+    description: 'Trained new staff in audio fundamentals, covering key topics such as gain structure, compression, equalization, and essential console operations and routing. Additionally, developed several web applications using React to support ministry initiatives.',
   }, {
     title: 'Production Associate',
     start: '9/1/2015',
     end: '5/1/2018',
-    description: 'Fostered team leadership and development. Responsible for audio/visual technology maintenance and operations at a reginal campus. Trained, equipped, and scheduled volunteers for weekend services. Grew the volunteer team 10x during my tenure.',
+    description: 'Cultivated team leadership and development while overseeing audio/visual technology maintenance and operations at a regional campus. Recruited, trained, and equipped volunteers for weekend services, growing the team tenfold over my tenure through effective scheduling and support.',
   }],
 }, {
   company: 'Airwave Networks',
@@ -71,7 +71,7 @@ const experience: Experience[] = [{
     title: 'Call Center Technician',
     start: '7/1/2011',
     end: '6/1/2013',
-    description: 'Responsible for the call center queue of three complexes around campus. Work would range from splicing ethernet cables and replace access points to configuring dish receivers. When I was not working on campus, I was accepting calls to help residents troubleshoot internet and cable issues from one of the 50+ locations nationwide.',
+    description: 'Managed the call center queue for three campus complexes, handling tasks from splicing ethernet cables and replacing access points to configuring dish receivers. When not on-site, I provided remote support by assisting residents in troubleshooting internet and cable issues across 50+ nationwide locations.',
   }],
 }]
 
