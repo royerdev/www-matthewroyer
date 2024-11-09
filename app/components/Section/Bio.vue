@@ -15,7 +15,7 @@
         <p>
           I'm a tech enthusiast with a Bachelor of Science in Information Technology from
           <NuxtLink to="https://www.georgiasouthern.edu/cec/it/bsit" target="_blank">Georgia Southern University</NuxtLink>,
-          where I specialized in web, multimedia, and music technology. As a seasoned full-stack software engineer based in Georgia (US), I thrive on solving complex problems and creating innovative solutions. When I am not working on software, I love watching soccer, attending concerts, and tackling home projects.
+          where I specialized in web, multimedia, and music technology. As a seasoned full-stack software engineer based in Georgia (US), I thrive on solving problems and creating innovative solutions. When I am not working on software, I love watching soccer, attending concerts, and tackling home projects.
           <NuxtLink to="https://www.atlutd.com" target="_blank">@ATLUTD</NuxtLink>&nbsp;
           <NuxtLink to="https://localnatives.com" target="_blank">@localnatives</NuxtLink>&nbsp;
           <NuxtLink to="https://www.nbthieves.com" target="_blank">@NBThieves</NuxtLink>

@@ -6,7 +6,7 @@ const experience: Experience[] = [{
     title: 'Staff Software Engineer',
     start: '8/1/2024',
     end: 'Now',
-    description: 'Led efforts to generate and showcase more short-form content, optimize web vitals, and create a plan for migrating our search infrastructure from CloudSearch to OpenSearch.',
+    description: 'Led efforts to achieve busniess objectives with our stack of Nuxt/Vue, Ruby on Rails, MySQL, and AWS such as generate and showcase more short-form content, optimize web vitals, and migrate our search infrastructure from CloudSearch to OpenSearch.',
   }, {
     title: 'Lead Software Engineer',
     start: '5/1/2023',
@@ -33,14 +33,19 @@ const experience: Experience[] = [{
     end: '2/1/2020',
     description: 'Lead Engineer tasked with transforming the intranet portal into a fully responsive, mobile-friendly platform. Utilized SharePoint REST APIs and server-side caching to streamline article consolidation across departments. Introduced new technologies and development best practices to enhance team efficiency and code quality.',
   }, {
+    title: 'Consultant',
+    start: '9/1/2015',
+    end: '5/1/2016',
+    description: 'Brought in as a consultant after starting full time at Compassion to assist with SharePoint development and administration.',
+  }, {
     title: 'Application Developer I',
     start: '2/1/2014',
-    end: '5/1/2016',
+    end: '9/1/2015',
     description: 'Served as the lead administrator for SharePoint 2013 deployments, overseeing the installation, configuration, and maintenance of a comprehensive on-premise SharePoint 2013 farm with over 40 servers across multiple environments.',
   }, {
     title: 'Application Developer Associate',
     start: '6/1/2013',
-    end: '3/1/2014',
+    end: '2/1/2014',
     description: 'Assisted in deploying a pilot instance of SharePoint 2013. Provided custom web development to meet specific business needs.',
   }, {
     title: 'Internship',
@@ -56,12 +61,12 @@ const experience: Experience[] = [{
     title: 'Consultant',
     start: '10/1/2020',
     end: '6/1/2021',
-    description: 'Trained new staff in audio fundamentals, covering key topics such as gain structure, compression, equalization, and essential console operations and routing. Additionally, developed several web applications using React to support ministry initiatives.',
+    description: 'Trained new staff in audio fundamentals, covering key topics such as gain structure, compression, equalization, and essential console operations.',
   }, {
     title: 'Production Associate',
     start: '9/1/2015',
     end: '5/1/2018',
-    description: 'Cultivated team leadership and development while overseeing audio/visual technology maintenance and operations at a regional campus. Recruited, trained, and equipped volunteers for weekend services, growing the team tenfold over my tenure through effective scheduling and support.',
+    description: 'Cultivated team leadership and development while overseeing audio/visual technology operations and maintenance at a our largest regional campus. Recruited, trained, and equipped a volunteer team to run weekly services, leading to an effective, dedicated team with steady growth. Built multiple web applications using AWS, React, and MySQL to address various ministry initiatives and streamline operations.',
   }],
 }, {
   company: 'Airwave Networks',
@@ -69,9 +74,9 @@ const experience: Experience[] = [{
   current: false,
   titles: [{
     title: 'Call Center Technician',
-    start: '7/1/2011',
+    start: '6/1/2011',
     end: '6/1/2013',
-    description: 'Managed the call center queue for three campus complexes, handling tasks from splicing ethernet cables and replacing access points to configuring dish receivers. When not on-site, I provided remote support by assisting residents in troubleshooting internet and cable issues across 50+ nationwide locations.',
+    description: 'Managed the call center queue for three student apartment complexes while studying for a bachelor\'s degreee. Handled tasks such as splicing ethernet cables, replacing access points, and configuring dish receivers. Provided remote support to residents, troubleshooting internet and cable issues across 50+ nationwide locations when not on-site.',
   }],
 }]
 
